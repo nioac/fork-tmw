@@ -53,6 +53,13 @@ Confira tudo o que temos no nosso YouTube. É gratis!
 4. git checkout develop (entrar na branch develop)
 5. git pull origin develop (garante que está atualizado)
 6. git checkouth -b doc/readme
-7. 
+7. git commit -m "doc: mudancas no arquivo"
+
+Não se versiona dados somente codigos
+criar um arquivo no IDE .gitignore (não verciona os arquivos que estiverem descrito dentro dele como  *.csv , *.xls , *.parquet)
+cria-se depois uma pasta para colocar esses arquivos e dentro da pasta cria um outro arquivo .gitkeep
+normalmente coloca o link no readme as instruções para baixar os arquivos dos dados
+
+
 ----
 
