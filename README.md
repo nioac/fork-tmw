@@ -46,13 +46,13 @@ Confira tudo o que temos no nosso YouTube. É gratis!
 12. git checkout main
 13. git branch -D <nova_branch>
 
+## Fluxo de trabalho Gitflow (boas práticas)
+1. no proprío github criar uma branch "develop"
+2. voltar ao depositorio local no terminal bash
+3. git fetch (tras todas as branchs que estão no repositorio remoto - github)
+4. git checkout develop (entrar na branch develop)
+5. git pull origin develop (garante que está atualizado)
+6. git checkouth -b doc/readme
+7. 
 ----
 
-Pessoas participantes:
-
-- Igor Dammous
-- Infoslack
-- Leo Medeiros
-- Mateus Dantas
-- Tales
-- Téo Calvo
